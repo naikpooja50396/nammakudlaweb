@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guides - Namma Kudla</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1><i class="fas fa-umbrella-beach"></i> Namma Kudla</h1>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="guides.html" class="active">Guides</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="dashboard.html" class="dashboard-link"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="blog-header">
+        <div class="container">
+            <h1>Meet Our Travel Guides</h1>
+            <p>Expert local guides to help you explore Mangalore</p>
+        </div>
+    </section>
+
+    <section style="padding: 3rem 0;">
+        <div class="container">
+            <div class="posts-grid" id="guidesGrid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+                <!-- Guides will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Guide Detail Modal -->
+    <div class="modal" id="guideModal">
+        <div class="modal-content" style="max-width: 800px;">
+            <div class="modal-header">
+                <h2 id="guideModalTitle">Guide Profile</h2>
+                <span class="modal-close" onclick="closeGuideModal()">&times;</span>
+            </div>
+            <div id="guideModalBody">
+                <!-- Content loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Namma Kudla</h3>
+                    <p>Your gateway to discovering Mangalore.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Namma Kudla. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/storage.js"></script>
+    <script src="js/guides.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

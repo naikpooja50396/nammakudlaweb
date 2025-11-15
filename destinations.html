@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Namma Kudla</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1><i class="fas fa-umbrella-beach"></i> Namma Kudla</h1>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="destinations.html" class="active">Destinations</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="dashboard.html" class="dashboard-link"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="blog-header">
+        <div class="container">
+            <h1>Explore Destinations</h1>
+            <p>Discover the best places to visit in and around Mangalore</p>
+        </div>
+    </section>
+
+    <!-- Destinations Content -->
+    <section style="padding: 3rem 0;">
+        <div class="container">
+            <!-- Filter by Category -->
+            <div class="filter-buttons" style="margin-bottom: 3rem;">
+                <button class="filter-btn active" onclick="filterDestinations('all')">All</button>
+                <button class="filter-btn" onclick="filterDestinations('beaches')">Beaches</button>
+                <button class="filter-btn" onclick="filterDestinations('temples')">Temples</button>
+                <button class="filter-btn" onclick="filterDestinations('heritage')">Heritage</button>
+                <button class="filter-btn" onclick="filterDestinations('nature')">Nature</button>
+            </div>
+
+            <!-- Destinations Grid -->
+            <div class="destinations-grid" id="destinationsGrid">
+                <!-- Will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Destination Detail Modal -->
+    <div class="modal" id="destinationModal">
+        <div class="modal-content" style="max-width: 900px;">
+            <div class="modal-header">
+                <h2 id="modalTitle">Destination Details</h2>
+                <span class="modal-close" onclick="closeDestinationModal()">&times;</span>
+            </div>
+            <div id="modalBody">
+                <!-- Content loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Namma Kudla</h3>
+                    <p>Your gateway to discovering the beauty, culture, and charm of Mangalore.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Namma Kudla. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/storage.js"></script>
+    <script src="js/destinations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

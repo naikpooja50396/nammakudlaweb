@@ -1,0 +1,152 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Namma Kudla</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1><i class="fas fa-umbrella-beach"></i> Namma Kudla</h1>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                        <li><a href="dashboard.html" class="dashboard-link"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="blog-header">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <section style="padding: 4rem 0; background: white;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; max-width: 1000px; margin: 0 auto;">
+                <div>
+                    <h2 style="color: var(--secondary-color); margin-bottom: 2rem;">Send Us a Message</h2>
+                    <form id="contactForm" style="background: var(--bg-light); padding: 2rem; border-radius: 10px;">
+                        <div class="form-group">
+                            <label>Your Name *</label>
+                            <input type="text" required style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: 8px;">
+                        </div>
+                        <div class="form-group">
+                            <label>Your Email *</label>
+                            <input type="email" required style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: 8px;">
+                        </div>
+                        <div class="form-group">
+                            <label>Subject *</label>
+                            <input type="text" required style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: 8px;">
+                        </div>
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea required style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: 8px; min-height: 150px;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+                
+                <div>
+                    <h2 style="color: var(--secondary-color); margin-bottom: 2rem;">Contact Information</h2>
+                    <div style="display: flex; flex-direction: column; gap: 2rem;">
+                        <div style="display: flex; gap: 1rem; padding: 1.5rem; background: var(--bg-light); border-radius: 10px;">
+                            <i class="fas fa-map-marker-alt" style="font-size: 1.5rem; color: var(--primary-color);"></i>
+                            <div>
+                                <h3 style="margin-bottom: 0.5rem;">Address</h3>
+                                <p style="color: var(--text-light);">Mangalore, Karnataka, India - 575001</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; gap: 1rem; padding: 1.5rem; background: var(--bg-light); border-radius: 10px;">
+                            <i class="fas fa-phone" style="font-size: 1.5rem; color: var(--primary-color);"></i>
+                            <div>
+                                <h3 style="margin-bottom: 0.5rem;">Phone</h3>
+                                <p style="color: var(--text-light);">+91 1234567890</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; gap: 1rem; padding: 1.5rem; background: var(--bg-light); border-radius: 10px;">
+                            <i class="fas fa-envelope" style="font-size: 1.5rem; color: var(--primary-color);"></i>
+                            <div>
+                                <h3 style="margin-bottom: 0.5rem;">Email</h3>
+                                <p style="color: var(--text-light);">info@nammakudla.com</p>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; gap: 1rem; padding: 1.5rem; background: var(--bg-light); border-radius: 10px;">
+                            <i class="fas fa-clock" style="font-size: 1.5rem; color: var(--primary-color);"></i>
+                            <div>
+                                <h3 style="margin-bottom: 0.5rem;">Business Hours</h3>
+                                <p style="color: var(--text-light);">Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; background: var(--primary-color); border-radius: 50%; color: white; font-size: 1.2rem;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; background: var(--primary-color); border-radius: 50%; color: white; font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; background: var(--primary-color); border-radius: 50%; color: white; font-size: 1.2rem;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; background: var(--primary-color); border-radius: 50%; color: white; font-size: 1.2rem;"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Namma Kudla</h3>
+                    <p>Your gateway to discovering Mangalore.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Namma Kudla. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/storage.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

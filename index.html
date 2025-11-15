@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namma Kudla - Discover Mangalore's Hidden Treasures</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1><i class="fas fa-umbrella-beach"></i> Namma Kudla</h1>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="dashboard.html" class="dashboard-link"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Namma Kudla</h1>
+            <p class="hero-subtitle">Discover the Coastal Paradise of Mangalore</p>
+            <p class="hero-description">Explore pristine beaches, ancient temples, delicious cuisine, and vibrant culture</p>
+            <a href="#featured-posts" class="btn btn-primary">Start Exploring</a>
+        </div>
+    </section>
+
+    <!-- About Kudla Section -->
+    <section class="about-kudla">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Namma Kudla</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>The Heart of Coastal Karnataka</h3>
+                    <p>Kudla, affectionately known as Mangalore, is a vibrant coastal city that beautifully blends tradition with modernity. Nestled between the Western Ghats and the Arabian Sea, this port city is renowned for its stunning beaches, rich cultural heritage, and mouthwatering cuisine.</p>
+                    <p>From the historic temples and churches that dot the landscape to the bustling fish markets and serene backwaters, Kudla offers a unique experience for every traveler. The warm hospitality of the locals, known as Kudlites, makes every visitor feel at home.</p>
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-water"></i>
+                            <h4>Pristine Beaches</h4>
+                            <p>Miles of golden sand beaches</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-place-of-worship"></i>
+                            <h4>Rich Heritage</h4>
+                            <p>Ancient temples and monuments</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Delicious Cuisine</h4>
+                            <p>Authentic coastal flavors</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-hands-helping"></i>
+                            <h4>Warm Hospitality</h4>
+                            <p>Friendly and welcoming locals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section class="featured-posts" id="featured-posts">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Travel Stories</h2>
+                <div class="divider"></div>
+                <p>Curated experiences from our community of travelers</p>
+            </div>
+            <div class="posts-grid" id="featuredPostsGrid">
+                <!-- Posts will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="popular-destinations">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Destinations</h2>
+                <div class="divider"></div>
+                <p>Must-visit places in and around Mangalore</p>
+            </div>
+            <div class="destinations-grid" id="popularDestinations">
+                <!-- Destinations will be dynamically loaded -->
+            </div>
+            <div class="text-center">
+                <a href="destinations.html" class="btn btn-secondary">View All Destinations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Posts -->
+    <section class="recent-posts">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recent Updates</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="posts-list" id="recentPostsList">
+                <!-- Recent posts will be dynamically loaded -->
+            </div>
+            <div class="text-center">
+                <a href="blog.html" class="btn btn-secondary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore by Category</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <i class="fas fa-umbrella-beach"></i>
+                    <h3>Beaches</h3>
+                    <p>Coastal paradise awaits</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-gopuram"></i>
+                    <h3>Temples</h3>
+                    <p>Spiritual journeys</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-drumstick-bite"></i>
+                    <h3>Food</h3>
+                    <p>Culinary adventures</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-mountain"></i>
+                    <h3>Nature</h3>
+                    <p>Scenic landscapes</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Picture perfect spots</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventure</h3>
+                    <p>Thrilling experiences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest travel stories and tips</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="newsletter-message" id="newsletterMessage"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Namma Kudla</h3>
+                    <p>Your gateway to discovering the beauty, culture, and charm of Mangalore. Join our community of travelers and share your experiences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="blog.html?category=beaches">Beaches</a></li>
+                        <li><a href="blog.html?category=temples">Temples</a></li>
+                        <li><a href="blog.html?category=food">Food</a></li>
+                        <li><a href="blog.html?category=nature">Nature</a></li>
+                        <li><a href="blog.html?category=adventure">Adventure</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Mangalore, Karnataka, India</li>
+                        <li><i class="fas fa-phone"></i> +91 9164451765</li>
+                        <li><i class="fas fa-envelope"></i> naikpooja50396@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Namma Kudla. All rights reserved. Made with <i class="fas fa-heart"></i> for Mangalore</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/storage.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
